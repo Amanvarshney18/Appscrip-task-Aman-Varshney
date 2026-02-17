@@ -2,8 +2,10 @@ import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState, useMemo } from "react";
+import productsData from "../data/products.json";
 
-export default function Home({ products }) {
+export default function Home() {
+  const products = productsData;
   const router = useRouter();
 
   const [showFilter, setShowFilter] = useState(true);
@@ -12,7 +14,7 @@ export default function Home({ products }) {
   const [priceRange, setPriceRange] = useState(1000);
 
   const filteredProducts = useMemo(() => {
-    let data = [...products];
+    let data = [...(products || [])];
 
     if (category !== "all") {
       data = data.filter((p) => p.category === category);
@@ -185,7 +187,7 @@ export default function Home({ products }) {
 
           <div className="footer-cols">
             <div>
-              <h4>mettā muse</h4>
+              <h4>we take</h4>
               <p>About Us</p>
               <p>Stories</p>
               <p>Artisans</p>
@@ -199,8 +201,8 @@ export default function Home({ products }) {
 
             <div>
               <h4>Contact</h4>
-              <p>+44 221 133 530</p>
-              <p>customercare@mettamuse.com</p>
+              <p>+91 7017442485</p>
+              <p>aman456varshney@gmail.com</p>
             </div>
           </div>
 
@@ -212,21 +214,6 @@ export default function Home({ products }) {
     </>
   );
 }
-export async function getStaticProps() {
-  try {
-    const res = await fetch("https://fakestoreapi.com/products");
-    const products = await res.json();
 
-    return {
-      props: {
-        products,
-      },
-    };
-  } catch (error) {
-    return {
-      props: {
-        products: [],
-      },
-    };
-  }
-}
+
+

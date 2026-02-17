@@ -1,0 +1,37 @@
+[
+  { "id": 1, "title": "Mens Casual T-Shirt", "price": 25, "category": "men's clothing", "image": "/images/p1.jpg" },
+  { "id": 2, "title": "Mens Slim Fit Shirt", "price": 35, "category": "men's clothing", "image": "/images/p2.jpg" },
+  { "id": 3, "title": "Men's Hoodie", "price": 60, "category": "men's clothing", "image": "/images/p3.jpg" },
+  { "id": 4, "title": "Men's Jacket", "price": 95, "category": "men's clothing", "image": "/images/p4.jpg" },
+  { "id": 5, "title": "Men's Jeans", "price": 70, "category": "men's clothing", "image": "/images/p5.jpg" },
+
+  { "id": 6, "title": "Women's Jacket", "price": 55, "category": "women's clothing", "image": "/images/p6.jpg" },
+  { "id": 7, "title": "Women's Summer Dress", "price": 45, "category": "women's clothing", "image": "/images/p7.jpg" },
+  { "id": 8, "title": "Women's Kurti", "price": 40, "category": "women's clothing", "image": "/images/p8.jpg" },
+  { "id": 9, "title": "Women's Hoodie", "price": 65, "category": "women's clothing", "image": "/images/p9.jpg" },
+  { "id": 10, "title": "Women's Top", "price": 30, "category": "women's clothing", "image": "/images/p10.jpg" },
+
+  { "id": 11, "title": "Gold Necklace", "price": 150, "category": "jewelery", "image": "/images/p11.jpg" },
+  { "id": 12, "title": "Silver Ring", "price": 75, "category": "jewelery", "image": "/images/p12.jpg" },
+  { "id": 13, "title": "Diamond Earrings", "price": 220, "category": "jewelery", "image": "/images/p13.jpg" },
+  { "id": 14, "title": "Bracelet", "price": 95, "category": "jewelery", "image": "/images/p14.jpg" },
+  { "id": 15, "title": "Gold Ring", "price": 180, "category": "jewelery", "image": "/images/p15.jpg" },
+
+  { "id": 16, "title": "Smartphone", "price": 299, "category": "electronics", "image": "/images/p15.jpg" },
+  { "id": 17, "title": "Wireless Headphones", "price": 120, "category": "electronics", "image": "/images/p14.jpg" },
+  { "id": 18, "title": "Gaming Mouse", "price": 49, "category": "electronics", "image": "/images/p13.jpg" },
+  { "id": 19, "title": "Laptop", "price": 850, "category": "electronics", "image": "/images/p12.jpg" },
+  { "id": 20, "title": "Bluetooth Speaker", "price": 95, "category": "electronics", "image": "/images/p11.jpg" },
+
+  { "id": 21, "title": "Men's Sports Shoes", "price": 110, "category": "men's clothing", "image": "/images/p10.jpg" },
+  { "id": 22, "title": "Women's Handbag", "price": 85, "category": "women's clothing", "image": "/images/p9.jpg" },
+  { "id": 23, "title": "Men's Watch", "price": 200, "category": "jewelery", "image": "/images/p8.jpg" },
+  { "id": 24, "title": "Tablet", "price": 399, "category": "electronics", "image": "/images/p7.jpg" },
+  { "id": 25, "title": "Women's Sandals", "price": 50, "category": "women's clothing", "image": "/images/p6.jpg" },
+
+  { "id": 26, "title": "Men's Cap", "price": 20, "category": "men's clothing", "image": "/images/p5.jpg" },
+  { "id": 27, "title": "Necklace Set", "price": 175, "category": "jewelery", "image": "/images/p4.jpg" },
+  { "id": 28, "title": "LED Monitor", "price": 250, "category": "electronics", "image": "/images/p3.jpg" },
+  { "id": 29, "title": "Women's Jeans", "price": 70, "category": "women's clothing", "image": "/images/p2.jpg" },
+  { "id": 30, "title": "Men's Formal Shirt", "price": 45, "category": "men's clothing", "image": "/images/p1.jpg" }
+]
